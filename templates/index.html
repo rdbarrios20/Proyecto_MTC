@@ -5,9 +5,10 @@ Cacatua monolucensis
 {% block content %}
 <div class="container">
     <section>
-        <div class="justify-center">
-            <form action="" class="form-login">
-                <h4>LOGIN</h4>
+        <div class="row main justify-center">
+            <form action="" method="post" class="form-login">
+                <h4>INICIO DE SESION</h4>
+                <hr>
                 <div style="text-align: center;">
                     <img class="login-img" src="static/img/cacatua.jpg" alt="">
                 </div>
@@ -16,13 +17,20 @@ Cacatua monolucensis
                     <input type="text" class="form-control" id="user_name" aria-describedby="emailHelp">
                 </div>
                 <div class="mb-3">
-                    <label for="password" class="form-label">Usuario</label>
+                    <label for="password" class="form-label">Contraseña</label>
                     <input type="password" class="form-control" id="password">
                 </div>
                 <div class="mb-3">
-                    <button type="submit" class="btn btn-primary button">LOGIN</button>
+                    <button type="submit" class="btn btn-primary button">ACCEDER</button>
                 </div>
-
+                <div class="row">
+                    <div class="col-6">
+                        <span><a href="#">Olvido su contraseña?</a></span>
+                    </div>
+                    <div class="col-6">
+                        <span><a href="#">Registrarse</a></span>
+                    </div>
+                </div>
             </form>
         </div>
     </section>
